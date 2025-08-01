@@ -4,7 +4,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello from CI/CD Python App!"
+    return "✅ Hello! This is a simple CI/CD Python App build test via Jenkins."
 
 if __name__ == "__main__":
     app.run(debug=True)
+
