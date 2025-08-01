@@ -7,5 +7,6 @@ def hello():
     return "✅ Hello! This is a simple CI/CD Python App build test via Jenkins."
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    print("App build success! No need to run Flask server in Jenkins.")
+
 
